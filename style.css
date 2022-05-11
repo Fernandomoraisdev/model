@@ -1,0 +1,152 @@
+*{margin: 0; padding: 0;}
+
+body{
+    background-image: linear-gradient(105deg, rgba(0,249,255,1) 
+    39%, rgba(51,56,57,1) 96%);
+    font-family: arial, helvetica, sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
+.topo {
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+}
+
+h1{
+    font-size: 22px;
+}
+
+.texto {
+    width: 300px;
+    height: 100px;
+    font-size: 14px;
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+.texto2 {
+    width: 300px;
+    height: 250px;
+    font-size: 14px;
+    margin-left: 310px;
+    margin-top: 200px;
+} 
+
+.texto3 {
+    width: 300px;
+    height: 250px;
+    font-size: 14px;
+    margin-top: -250px;
+    float: left;
+    margin-left: 20px;
+} 
+
+.menu{
+margin-left: 450px;
+list-style:none;
+border:1px solid #c0c0c0;
+float:left;
+background-color: #fff;
+margin-top: 50px;
+}
+
+.menu li{
+    position:relative;
+    float:left;
+    border-right:1px solid #c0c0c0;
+}
+
+button {
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+    background-color:rgba(14, 102, 40, 0.966);
+    margin-left: 15.6rem;
+    text-decoration: none;
+    border: 0 ;
+    margin-top: 2rem;
+    color: white;
+}
+
+button a{
+    border-radius: 10px;
+    background-color:rgb(0, 40, 100);;
+    margin-left: 5px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.botao2 {
+    border-radius: 10px;
+    background-color:rgb(0, 40, 100);
+    margin-left: 20px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+img {
+    height: 400px;
+    width: 500px;
+    margin-left: 350px;
+    margin-top: -180px;
+}
+
+.imagem2 {
+    width: 250px;
+    height: 500px;
+    margin-left: 510px;
+    float: left;
+    margin-top: -410px;
+}
+
+.menu li a{
+    background-color: rgba(14, 102, 40, 0.966);
+    color:rgb(255, 255, 255); 
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+
+.menu li a .ativo {
+    color: #333
+}
+
+.menu li a:hover{
+background:rgb(38, 45, 56);
+color:#fff;
+text-shadow:0px 0px 5px #fff;
+}
+
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }
+
+    .menu li:hover ul, .menu li.over ul{
+        display:block;
+    }
+
+    .menu li ul li{
+        border:1px solid #c0c0c0;
+        display:block;
+        width:150px;
+        }
+
+.formulario{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 40px;
+    background-color: green;
+}
+nav form {
+    width: 600px;
+    height: 400px;
+    margin-top: -450px;
+    margin-left: 400px;
+}
